@@ -1,0 +1,58 @@
+* {
+    border: 1px dashed black;
+}
+
+.menu {
+    background-color: aqua;
+    height: 100%;
+    width: 30px;
+}
+
+.logo {
+    background-color: aqua;
+    height: 100%;
+    width: 30px;
+}
+
+.accedi {
+    background-color: aqua;
+    height: 100%;
+    width: 30px;
+}
+
+.big-container {
+    background-color: bisque;
+}
+
+.card {
+    background-color: greenyellow;
+    width: 250px;
+    height: 400px;
+}
+
+.image {
+    background-color: violet;
+    height: 80%;
+}
+
+.description {
+    background-color: blue;
+    height: 20%;
+}
+
+
+.footer-container {
+    
+}
+
+footer .link-bottom {
+    background-color: azure;
+    height: 1.5rem;
+    width: 60px;
+}
+
+footer .social {
+    background-color: azure;
+    height: 1.5rem;
+    width: 60px;
+}
