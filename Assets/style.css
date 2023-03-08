@@ -33,6 +33,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
     background-color: #FF6900;
 }
@@ -54,6 +55,7 @@ header {
     align-items: center;
     color: #FFFF;
     height: 100%;
+    padding-right: 0.4em;
 }
 
 .logo {
@@ -98,6 +100,9 @@ header {
 }
 
 .heart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     top: .2rem;
     background-color: #FFFF;
@@ -105,12 +110,34 @@ header {
     width: 2rem;
 }
 
-.sconto {
+.tag-box {
+    display: flex;
+    align-items: center;
     position: relative;
     bottom: 2rem;
     background-color: #FFFF;
     height: 1rem;
     width: 50%;
+    
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 0.3em;
+    padding: 0 1em;
+    color: #FFFF;
+    font-size: 10px;
+    width: fit-content;
+}
+
+.tag.sconto {
+    background-color: red;
+}
+
+.tag.green {
+    background-color: green;
 }
 
 /* footer */
