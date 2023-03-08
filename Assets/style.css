@@ -7,13 +7,15 @@
 }
 
 html {
-	font-size: 20px;
-	font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	line-height: 1.4;
 }
 
 /* general styles */
 
+a {
+    text-decoration: none;
+}
 
 
 /* header */
@@ -23,14 +25,46 @@ html {
 header {
     display: flex;
     justify-content: center;
+    background-color: #FF6900;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #FF6900;
     height: 3rem;
     width: 800px;
+}
+
+.menu {
+    display: flex;
+    font-size: 13px;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    color: #FFFF;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50%;
+}
+
+.accedi {
+    display: flex;
+    align-items: center;
+    color: #FFFF;
+    height: 100%;
+}
+
+.accedi i {
+    margin-left: 0.5em;
 }
 
 /* main */
@@ -40,6 +74,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-inline: auto;
+    padding-top: 2rem;
     max-width: 800px;
 }
 
