@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 1px dashed black;
-} */
+}
 
 /* .menu {
     background-color: aqua;
@@ -26,18 +26,14 @@
 
 .card {
     background-color: greenyellow;
-    width: 250px;
-    height: 400px;
 }
 
 .image {
     background-color: violet;
-    height: 80%;
 }
 
 .description {
     background-color: blue;
-    height: 20%;
 }
 
 
