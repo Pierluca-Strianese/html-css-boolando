@@ -158,6 +158,9 @@ header {
 .prima-img:hover {
     opacity: 0;
 }
+.description {
+    margin-top: 2rem;
+}
 
 .description div {
     width: fit-content;
@@ -204,6 +207,10 @@ footer {
 
 .link-bottom {
     color: #FFFF;
+}
+
+.link-list span {
+    margin-right: 0.8em;
 }
 
 .link-bottom div {
